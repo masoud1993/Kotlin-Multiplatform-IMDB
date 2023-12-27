@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS Video (
+    title TEXT,
+    year TEXT,
+    imdbId TEXT,
+    type TEXT,
+    poster TEXT,
+    PRIMARY KEY(imdbId)
+);
+
+insertVideo:
+INSERT INTO Video(title, year, imdbId, type, poster)
+VALUES(?, ?, ?, ?, ?);
+
+removeAllVideos:
+DELETE FROM Video;
+
+selectAllVideos:
+SELECT Video.*
+FROM Video;
