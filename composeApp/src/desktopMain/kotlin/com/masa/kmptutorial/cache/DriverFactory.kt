@@ -11,5 +11,4 @@ actual class DriverFactory() {
         AppDatabase.Schema.create(driver)
         return driver
     }
-
 }

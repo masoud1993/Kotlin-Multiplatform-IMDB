@@ -14,5 +14,3 @@ This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
 Run the desktop application:`./gradlew :composeApp:run`
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
-
-# apikey 6fboN92MUSCInMEwWuVNd8:0FUxNlV0ZWIk8fUBwGKWU9
